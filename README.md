@@ -7,7 +7,11 @@
 3. LiveReload
 4. Tailwind
 
+> windows下如果cross-env不识别，可以全局安装 npm i -g cross-env
+
 ## 安装
+
+> 本地安装wordpress, cd到 <项目文件夹>/wp-content/themes/文件夹下
 
 1. git clone https://github.com/kgzhang/gese-vue-component.git
 2. npm intall
