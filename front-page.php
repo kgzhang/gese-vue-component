@@ -1,6 +1,9 @@
-<?php get_header(); ?>
+<?php
+    get_header();
+    $name = 'kaige';
+?>
 
-<container :noPadding="true">
+<container :no-padding="false" name="<?php echo $name; ?>">
     Hello, This is from container
 </container>
 

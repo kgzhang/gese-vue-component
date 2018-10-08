@@ -2,10 +2,12 @@
     <section
         class="container"
         :class="{
-            'container--no-padding': noPadding
+            'container--no--padding': noPadding
         }"
     >
     <div class="bg-grey px-8 py-4">
+        {{ name }}
+        {{ noPadding }}
         <slot></slot>
     </div>
     </section>
@@ -16,6 +18,9 @@
             noPadding: {
                 type: Boolean,
                 default: false
+            },
+            name: {
+                type: String
             }
         }
     }
